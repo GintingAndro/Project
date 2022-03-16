@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+main {
+    height: 400px;
+    background-size: cover;
+    background-image: url(https://i.postimg.cc/tg5HBLKx/Landscape-Color.jpg);
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-wrapper {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    padding: 80px 10px;
+    height: 200px;
+    background-color: rgba(0, 29, 56, 0.53);
+}
+
+.main-content h1 {
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.main-content p {
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.btn-main {
+    margin: 20px 0 10px 0;
+
+}
+
+.btn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: inline-block;
+    opacity: 0.8;
+    border-style: solid;
+    border-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: green;
+    transition: all 0.5s;
+}
+
+.lesson-wrapper {
+  height: 650px;
+  padding-bottom: 80px;
+  text-align: center;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.lesson-wrapper img {
+  height: 140px;
+  width: 140px;
+}
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: bolder;
+  color: #d3d3d3;
+  font-size: 35px
+}
+
+.lesson {
+  float: left;
+  width: 30%;
+  position: relative;
+  margin: 0 auto;
+ }
+ 
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.anand img {
+width: 140px;
+height: 130px;
+}
+
+.list1 {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 50px
+}
+
+.list2 {
+  display: flex;
+  margin: 0 auto;
+}
+
+.list2 img {
+  position: relative; left: 20px
+}
+
+.arief img {
+  width: 190px;
+}
+
+.sss {
+  position: relative; top: 20px
+}
+
+
+.txt-contents {
+  width: 80%;
+  display: inline-flex;
+  margin-top: 20px;
+  font-size: 25px;
+  color: #d6cfc7;
+  margin-left: 130px;
+  font-weight: bold;
+  }
+
+
